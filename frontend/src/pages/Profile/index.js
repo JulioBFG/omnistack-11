@@ -69,7 +69,7 @@ export default function Profile() {
 
             <strong>VALOR</strong>
             <p>{Intl.
-                NumberFormat('pt-BR',{ style:currency, currency:'BRL' })
+                NumberFormat('pt-BR',{currency:'BRL' })
                 .format(incident.value)
                 }
             </p>
